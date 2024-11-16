@@ -52,7 +52,6 @@
   <documents>Document.ПродажаБилета</documents>
   <reports>Report.ПродажиПоАттракционам</reports>
   <reports>Report.СтатистикаПосещений</reports>
-  <informationRegisters>InformationRegister.РегистрСведений</informationRegisters>
   <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
