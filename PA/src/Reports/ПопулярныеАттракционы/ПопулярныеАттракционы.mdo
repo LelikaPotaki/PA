@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a8ddcd2-10ba-439a-aa15-4e71e16d2b57">
+  <producedTypes>
+    <objectType typeId="09d0a0a6-7496-4e54-8850-089f90fcb59f" valueTypeId="79217743-c77d-4e8e-ba03-88cd589424f5"/>
+    <managerType typeId="040e03a2-2836-4ec2-87a1-633a3e751599" valueTypeId="f9630d9f-24d8-4307-aba5-fe438f8457c8"/>
+  </producedTypes>
+  <name>ПопулярныеАттракционы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Популярные аттракционы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПопулярныеАттракционы.Template.Макет</mainDataCompositionSchema>
+  <templates uuid="980950ed-4d99-435c-a996-7606714d3c8f">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

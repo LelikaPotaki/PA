@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d910fc2f-c734-4372-a534-aa3c984486eb">
+  <producedTypes>
+    <selectionType typeId="4ccb132b-65f0-4441-851c-1c67d6199dcf" valueTypeId="97cf9b4e-1bf3-48ba-a56b-0685f9a9eb51"/>
+    <listType typeId="bbfe9e9b-f71a-4fd1-96c2-1907b75b6297" valueTypeId="45c0e278-9316-4f1a-bfd9-a284e669e822"/>
+    <managerType typeId="78bd4952-3d85-401a-a551-b21339ba9cee" valueTypeId="ae6dcc63-aedb-4d8a-842a-39b0435c6417"/>
+    <recordSetType typeId="a7eb1e5d-f127-4fe1-9227-86c3083d48c2" valueTypeId="2ebd6d61-f01f-40c7-96d1-3730303b71c5"/>
+    <recordKeyType typeId="3cc84b01-8f88-421c-bb03-e25a1667888c" valueTypeId="8e162a76-501b-4a05-baf9-6c6ccfeb35a5"/>
+    <recordType typeId="c4253f83-ca90-4ba3-b659-8c7c67c5b717" valueTypeId="f7488a5a-d397-4ec1-b209-d2d1b19de3b0"/>
+  </producedTypes>
+  <name>ПосещенияАттракционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посещения аттракционов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="51c3aba1-e87c-46c1-94b9-1de65949a489">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d7bb345e-42a5-4af3-9ddd-d3e8ed3c90b1">
+    <name>Аттракцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттракцион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аттракционы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b31f6295-4002-458f-b584-194a71a95c9d">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80e9029c-0af1-4dfe-a632-a37c35225795">
+  <producedTypes>
+    <objectType typeId="fb1c3b79-773d-437d-839e-6f6db070be3e" valueTypeId="50f25c81-288f-4e6d-bed7-42723025ee0d"/>
+    <managerType typeId="5c0bbcde-b05a-4d1b-a03b-24607b0376df" valueTypeId="4d49caea-eeee-44e3-b070-e7109b7fd2c1"/>
+  </producedTypes>
+  <name>ПланированиеОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПланированиеОтпусков.Form.Форма</defaultForm>
+  <forms uuid="c820de49-e742-4270-9af4-5280c90bc6f9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
